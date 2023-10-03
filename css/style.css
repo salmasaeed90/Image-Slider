@@ -1,0 +1,37 @@
+.layer {
+  width: 70%;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
+  left: 15%;
+}
+
+#fixed-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#parent {
+  width: 40%;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#leftBtn,
+#rightBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#leftBtn {
+  left: 20px;
+}
+#rightBtn {
+  right: 20px;
+}
